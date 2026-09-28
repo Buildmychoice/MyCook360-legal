@@ -18,15 +18,16 @@ function MyCook360Logo() {
       style={{
         display: "inline-flex",
         alignItems: "center",
+        maxWidth: "100%",
         marginBottom: "32px",
       }}
     >
       <Image
         src="/MyCook360-logo.png"
         alt="MyCook360"
-        width={60}
-        height={60}
-        style={{ objectFit: "contain", width: 60, height: 60 }}
+        width={320}
+        height={51}
+        style={{ width: 320, maxWidth: "100%", height: "auto" }}
         priority
       />
     </div>
@@ -104,9 +105,9 @@ export function LegalLayout({ title, lastUpdated, sections }: LegalLayoutProps) 
             <Image
               src="/MyCook360-logo.png"
               alt="MyCook360"
-              width={40}
-              height={40}
-              style={{ objectFit: "contain", width: 40, height: 40 }}
+              width={130}
+              height={21}
+              style={{ width: 130, maxWidth: "100%", height: "auto" }}
               priority
             />
           </div>
@@ -230,9 +231,9 @@ export function LegalLayout({ title, lastUpdated, sections }: LegalLayoutProps) 
             <Image
               src="/MyCook360-logo.png"
               alt="MyCook360"
-              width={30}
-              height={30}
-              style={{ objectFit: "contain", width: 30, height: 30 }}
+              width={120}
+              height={19}
+              style={{ width: 120, maxWidth: "100%", height: "auto" }}
             />
           </div>
           <p style={{ fontSize: "13px", color: "#9ca3af" }}>
