@@ -14,8 +14,11 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/MyCook360-logo.png",
-    apple: "/MyCook360-logo.png",
+    icon: [
+      { url: "/icon.png", sizes: "256x256", type: "image/png" },
+      { url: "/icon.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/icon.png",
   },
 };
 
