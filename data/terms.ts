@@ -73,7 +73,7 @@ export const termsData: Section[] = [
       },
       {
         type: "list",
-        items: ["taofeq.design@gmail.com"],
+        items: ["mycook360@outlook.com"],
       },
     ],
   },

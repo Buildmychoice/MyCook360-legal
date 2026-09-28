@@ -12,7 +12,7 @@ interface LegalLayoutProps {
   sections: Section[];
 }
 
-function KrezoLogo() {
+function MyCook360Logo() {
   return (
     <div
       style={{
@@ -22,7 +22,7 @@ function KrezoLogo() {
       }}
     >
       <Image
-        src="/KREZO-logo.png"
+        src="/MyCook360-logo.png"
         alt="MyCook360"
         width={60}
         height={60}
@@ -102,7 +102,7 @@ export function LegalLayout({ title, lastUpdated, sections }: LegalLayoutProps) 
             }}
           >
             <Image
-              src="/KREZO-logo.png"
+              src="/MyCook360-logo.png"
               alt="MyCook360"
               width={40}
               height={40}
@@ -141,7 +141,7 @@ export function LegalLayout({ title, lastUpdated, sections }: LegalLayoutProps) 
             animation: "fadeInUp 0.6s cubic-bezier(0.22,1,0.36,1) both",
           }}
         >
-          <KrezoLogo />
+          <MyCook360Logo />
         </div>
 
         {/* Tabs */}
@@ -228,7 +228,7 @@ export function LegalLayout({ title, lastUpdated, sections }: LegalLayoutProps) 
             }}
           >
             <Image
-              src="/KREZO-logo.png"
+              src="/MyCook360-logo.png"
               alt="MyCook360"
               width={30}
               height={30}
@@ -241,14 +241,14 @@ export function LegalLayout({ title, lastUpdated, sections }: LegalLayoutProps) 
           <p style={{ fontSize: "12px", color: "#d1d5db" }}>
             Questions?{" "}
             <a
-              href="mailto:taofeq.design@gmail.com"
+              href="mailto:mycook360@outlook.com"
               style={{
                 color: "#C94F3D",
                 textDecoration: "none",
                 fontWeight: 500,
               }}
             >
-              taofeq.design@gmail.com
+              mycook360@outlook.com
             </a>
           </p>
         </div>

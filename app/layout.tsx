@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/KREZO-logo.png",
-    apple: "/KREZO-logo.png",
+    icon: "/MyCook360-logo.png",
+    apple: "/MyCook360-logo.png",
   },
 };
 
